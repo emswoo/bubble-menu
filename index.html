@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div id="vanta-canvas">
+        <div id="wrap">
+        <header>
+            <!-- <div class="nav-container">
+                <ul class="nav">
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div> -->
+            <!-- /.nav-container -->
+            <div id="nav-container">
+                <div id="nav-bar" onclick="menuOnClick()">
+                    <div id="bar1" class="bar"></div>
+                    <div id="bar2" class="bar"></div>
+                    <div id="bar3" class="bar"></div>
+                </div>
+                <!-- /.nav-bar -->
+                <nav class="nav" id="nav">
+                    <ul>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="portfolio">Portfolio</a></li>
+                        <li><a href="contact">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+            <!-- /.nav-container -->
+        <div class="nav-bg" id="nav-bg"></div>
+        <div class="main">
+            <p>Hi,<br>I'm Emmy<br>Web Developer.</p>
+            <p class="btn"><a href="portfolio.html">My Portfolio</a></p>
+        </div>
+        <!-- /.main -->
+        <footer>E. Manning © 2022</footer>
+    </div>
+    <!-- /.wrap -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/vanta/0.5.21/vanta.net.min.js"></script>
+        <script type="text/javascript">
+            VANTA.NET ({
+            el: "#vanta-canvas",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: true,
+            minHeight: 200.00,
+            minWeight: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00,
+            color: 0x3fbbff
+        })
+        </script>
+    </div>
+    <!-- /.vanta-canvas -->
+</body>
+</html>
